@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Party Planner</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js"></script></head>
+<body>
+
+    <h1>Party Planner</h1>
+
+    <form id="add-party-form">
+        <input type="text" id="name" placeholder="Party Name" required>
+        <input type="date" id="date" required>
+        <input type="time" id="time" required>
+        <input type="text" id="location" placeholder="Location" required>
+        <textarea id="description" placeholder="Description" required></textarea>
+        <button type="submit">Add Party</button>
+    </form>
+
+    <h2>Party List</h2>
+    <div id="party-list"></div>
+
+</body>
+</html>
